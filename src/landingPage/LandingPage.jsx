@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from "./Header.jsx";
-import logo from "../assets/LogoNuetVault.png";
+import HeroSection from "./HeroSection.jsx";
 
 function LandingPage() {
     return (
         <div>
             <Header />
-            <img style={{position: 'absolute', right: 0}} src={logo}></img>
+            <HeroSection />
         </div>
     );
 }

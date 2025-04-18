@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <header className={style.header}>
-            <a href="/"><img className={style.logo} src={logo} alt="NUET Vault Logo" /></a>
+            <a href="#heroSection"><img className={style.logo} src={logo} alt="NUET Vault Logo" /></a>
 
             <nav className={`${style.nav} ${menuOpen ? style.active : ''}`}>
                 <a href='#platform'>Platform</a>
