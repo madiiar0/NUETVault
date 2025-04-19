@@ -11,7 +11,7 @@ function Header() {
             <a href="#heroSection"><img className={style.logo} src={logo} alt="NUET Vault Logo" /></a>
 
             <nav className={`${style.nav} ${menuOpen ? style.active : ''}`}>
-                <a href='#platform'>Platform</a>
+                <a href='#platformDemoSection'>Platform Demo</a>
                 <a href='#why-us'>Why Us</a>
                 <a href='#road-map'>Road Map</a>
                 <a href='#pricing'>Pricing</a>
