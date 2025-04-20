@@ -3,6 +3,7 @@ import Header from "./Header.jsx";
 import HeroSection from "./HeroSection.jsx";
 import PlatformDemoSection from "./PlatformDemoSection.jsx";
 import WhyUsSection from "./WhyUsSection.jsx";
+import RoadmapSection from "./RoadmapSection.jsx";
 
 function LandingPage() {
     return (
@@ -11,6 +12,7 @@ function LandingPage() {
             <HeroSection />
             <PlatformDemoSection />
             <WhyUsSection />
+            <RoadmapSection />
         </div>
     );
 }
