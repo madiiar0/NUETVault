@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./Header.jsx";
 import HeroSection from "./HeroSection.jsx";
 import PlatformDemoSection from "./PlatformDemoSection.jsx";
+import WhyUsSection from "./WhyUsSection.jsx";
 
 function LandingPage() {
     return (
@@ -9,6 +10,7 @@ function LandingPage() {
             <Header />
             <HeroSection />
             <PlatformDemoSection />
+            <WhyUsSection />
         </div>
     );
 }

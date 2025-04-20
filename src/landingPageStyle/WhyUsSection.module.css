@@ -1,25 +1,44 @@
-.heroSectionPic{
-    height: 512px;
-    overflow: hidden;
-    z-index: -1;
-}
-
 .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     scroll-margin-top: 70px;
-    gap: 50px;
+    gap: 90px;
     width: 100%;
     height: 512px;
+    margin-top: 120px;
 }
 
-.LeftContainer {
+.LogoNU{
+    height: 512px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.RightContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
+}
+
+.h1 {
+    width: 360px;
+    line-height: 58px;
+    font-weight: bold;
+    font-size: 46px;
+    color: black;
+}
+
+.p{
+    width: 360px;
+    font-size: 16px;
+    color: black;
+}
+
+.highlight {
+    color: #d88852;
 }
 
 .button{
@@ -39,22 +58,6 @@
 .button:hover{
     background-color: #d88852;
     color: white;
-}
-
-.phraseCTA {
-    width: 360px;
-    line-height: 58px;
-    font-weight: bold;
-    font-size: 46px;
-    color: black;
-}
-
-.highlight {
-    color: #d88852;
-}
-
-.animatedText{
-    font-size: 46px;
 }
 
 @media
@@ -88,12 +91,13 @@ screen and (min-resolution: 3dppx){
         color: white;
     }
 
-    .LeftContainer{
+    .RightContainer{
         padding-top: 30px;
         justify-content: flex-start;
         align-items: center;
     }
-    .heroSectionPic{
+
+    .LogoNU{
         display: none;
     }
 
@@ -101,12 +105,7 @@ screen and (min-resolution: 3dppx){
         width: 100%;
     }
 
-    .phraseCTA{
-        line-height: 45px;
-        font-size: 36px;
-    }
-
-    .animatedText{
+    .h1{
         font-size: 36px;
     }
 }
