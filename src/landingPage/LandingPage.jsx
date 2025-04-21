@@ -5,6 +5,7 @@ import PlatformDemoSection from "./PlatformDemoSection.jsx";
 import WhyUsSection from "./WhyUsSection.jsx";
 import RoadmapSection from "./RoadmapSection.jsx";
 import PricingSection from "./PricingSection.jsx";
+import Footer from "./Footer.jsx";
 
 function LandingPage() {
     return (
@@ -15,6 +16,7 @@ function LandingPage() {
             <WhyUsSection />
             <RoadmapSection />
             <PricingSection />
+            <Footer />
         </div>
     );
 }
