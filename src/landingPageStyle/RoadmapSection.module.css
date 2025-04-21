@@ -10,6 +10,7 @@
     z-index: 10;
     cursor: pointer;
     transition: all ease-in 0.2s;
+    scroll-margin-top: 100px;
 }
 
 .button:hover{
@@ -26,14 +27,11 @@
 .LogoFlatNU{
     margin-top: 5px;
     width: 10%;
+    max-width : 100px;
+    min-width : 50px;
 }
 
 @media (max-width: 1170px){
-    .container{
-        align-items: start;
-    }
-}
-@media (max-width: 1000px){
     .container{
         align-items: start;
     }

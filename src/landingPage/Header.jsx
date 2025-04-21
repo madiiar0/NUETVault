@@ -12,8 +12,8 @@ function Header() {
 
             <nav className={`${style.nav} ${menuOpen ? style.active : ''}`}>
                 <a href='#platformDemoSection'>Platform Demo</a>
-                <a href='#why-us'>Why Us</a>
-                <a href='#road-map'>Road Map</a>
+                <a href='#whyUsSection'>Why Us</a>
+                <a href='#roadMapSection'>Road Map</a>
                 <a href='#pricing'>Pricing</a>
             </nav>
 

@@ -6,7 +6,7 @@ import LogoFlatNU from "../assets/LogoFlatNU.png"
 
 const RoadmapSection = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container} id='roadMapSection'>
             <VerticalTimeline lineColor={'#d88852'}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"

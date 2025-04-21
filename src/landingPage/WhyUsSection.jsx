@@ -5,7 +5,9 @@ import LogoNU from '../assets/LogoNU.png';
 function WhyUsSection() {
     return (
         <div className={style.container}
-             style={{ '--bg-image': `url(${LogoNU})` }}>
+             style={{ '--bg-image': `url(${LogoNU})` }}
+             id='whyUsSection'
+            >
             <img className={style.LogoNU} src={LogoNU} alt='Logo of NU' />
             <div className={style.RightContainer}>
                 <h1 className={style.h1}>WHY US TO PREPARE FOR <span className={style.highlight}>NUET</span>?</h1>
