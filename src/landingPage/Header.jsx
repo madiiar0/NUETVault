@@ -14,7 +14,7 @@ function Header() {
                 <a href='#platformDemoSection'>Platform Demo</a>
                 <a href='#whyUsSection'>Why Us</a>
                 <a href='#roadMapSection'>Road Map</a>
-                <a href='#pricing'>Pricing</a>
+                <a href='#pricingSection'>Pricing</a>
             </nav>
 
             <div className={style.hamburger} onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>

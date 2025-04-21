@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    scroll-margin-top: 70px;
+    width: 100%;
+    height: 640px;
+    gap: 20px;
+}
+
+.h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+}
+
+.pricing {
+    color: #d88852;
+    font-style: italic;
+}
+
+.plansContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.h2{
+    color: #d88852;
+}
+
+.h2_1{
+    color: white;
+}
+
+.ul {
+    color: #d88852;
+}
+
+.ul1 {
+    color: white;
+}
+
+.li1{
+    color: white;
+}
+
+.price{
+    color: white;
+}
