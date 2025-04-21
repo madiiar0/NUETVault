@@ -16,33 +16,39 @@ function PricingSection() {
             <h1 className={style.h1}>FAIR <span className={style.pricing}>PRICING</span></h1>
 
             <div className={style.plansContainer}>
-                    <div>
-                        <h2 className={style.h2}>MOCK</h2>
-                        <ul className={style.ul}>
-                            <li className={style.li}>Access to ALL Mock tests</li>
-                            <li className={style.li}>Access to ALL Mock tutorials</li>
-                        </ul>
-                        <p className={style.price}>14,990&#8376;</p>
+                    <div className={style.mockplan}>
+                        <div>
+                            <h2 className={style.mockh1}>MOCK</h2>
+                            <p className={style.mockul}>
+                                &#8226; Access to ALL Mock tests<br />
+                                &#8226; Access to ALL Mock tutorials<br />
+                            </p>
+                        </div>
+                        <p className={style.mockprice}>14,990&#8376;</p>
                     </div>
 
-                    <div className={style.plan}>
-                        <h2 className={style.h2_1}>BASIC</h2>
-                        <ul className={style.ul1}>
-                            <li className={style.li1}>Everything in MOCK plan</li>
-                            <li className={style.li1}>Access to Math video course</li>
-                            <li className={style.li1}>Access to Critical Thinking video course</li>
-                        </ul>
-                        <p className={style.price}>19,990&#8376;</p>
+                    <div className={style.basicplan}>
+                        <div>
+                            <h2 className={style.basich1}>BASIC</h2>
+                            <p className={style.basicul}>
+                                &#8226; Everything in MOCK plan<br />
+                                &#8226; Access to Math video course<br />
+                                &#8226; Access to Critical Thinking video course<br />
+                            </p>
+                        </div>
+                        <p className={style.basicprice}>19,990&#8376;</p>
                     </div>
 
-                    <div className={style.plan}>
-                        <h2 className={style.h2}>PRO</h2>
-                        <ul className={style.ul}>
-                            <li className={style.li}>Everything in MOCK plan</li>
-                            <li className={style.li}>Everything in BASIC plan</li>
-                            <li className={style.li}>Access to individual mentor who will help in your journey to NU</li>
-                        </ul>
-                        <p className={style.price}>29,990&#8376;</p>
+                    <div className={style.proplan}>
+                        <div>
+                            <h2 className={style.proh1}>PRO</h2>
+                            <p className={style.proul}>
+                                &#8226; Everything in MOCK plan<br />
+                                &#8226; Everything in BASIC plan<br />
+                                &#8226; Individual mentor who will help in your journey to NU<br />
+                            </p>
+                        </div>
+                        <p className={style.proprice}>29,990&#8376;</p>
                     </div>
             </div>
         </div>

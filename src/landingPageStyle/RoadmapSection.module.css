@@ -13,6 +13,19 @@
     scroll-margin-top: 100px;
 }
 
+
+.h1{
+    color: black;
+    font-size: 46px;
+    margin: 20px 0;
+}
+
+.highlight{
+    color: #d88852;
+    font-style: italic;
+}
+
+
 .button:hover{
     font-size: 24px;
 }
@@ -22,6 +35,7 @@
     margin-top: 70px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .LogoFlatNU{
@@ -29,6 +43,7 @@
     width: 15%;
     max-width : 100px;
     min-width : 50px;
+    display: block;
 }
 
 @media (max-width: 1170px){
