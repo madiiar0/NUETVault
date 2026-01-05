@@ -5,7 +5,7 @@
 ---
 
 ## Фотки
-
+![demo pic](public/Screenshot 2026-01-05 at 21.06.18.png)
 
 ---
 
