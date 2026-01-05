@@ -1,12 +1,30 @@
-# React + Vite
+# NUET Vault — Landing Page (Vite + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Лендинг проекта **NUET Vault** — платформы для подготовки к **NUET** (mock-тесты, видео-уроки, аналитика результатов, учебные планы). :contentReference[oaicite:0]{index=0}  
+Страница состоит из секций (Hero/демо/почему мы/roadmap/цены/футер) и включает анимированный текст и таймлайн “Roadmap to NU”. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Возможности
 
-## Expanding the ESLint configuration
+- **Адаптивный хедер** с навигацией по секциям и “гамбургер”-меню. :contentReference[oaicite:2]{index=2}  
+- **Hero-секция** с CTA и анимацией печатающегося текста (TypingText).   
+- **Roadmap-секция** на базе вертикального таймлайна. :contentReference[oaicite:4]{index=4}  
+- **Футер** с контактной почтой для коллабораций. :contentReference[oaicite:5]{index=5}  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Технологии
+
+- **React** + **Vite**   
+- **CSS Modules** (модульные стили компонентов)   
+- **react-vertical-timeline-component** для таймлайна   
+- Подготовлены зависимости для **роутинга** и **локализации** (react-router-dom, i18next). :contentReference[oaicite:9]{index=9}  
+
+---
+
+## Быстрый старт
+
+### 1) Установка зависимостей
+```bash
+npm install
