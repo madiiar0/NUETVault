@@ -5,7 +5,11 @@
 ---
 
 ## Фотки
-![demo pic](public/Screenshot 2026-01-05 at 21.06.18.png)
+![Screenshot 21.06.18](public/Screenshot%202026-01-05%20at%2021.06.18.png)
+![Screenshot 21.07.28](public/Screenshot%202026-01-05%20at%2021.07.28.png)
+![Screenshot 21.07.42](public/Screenshot%202026-01-05%20at%2021.07.42.png)
+![Screenshot 21.07.53](public/Screenshot%202026-01-05%20at%2021.07.53.png)
+![Screenshot 21.08.07](public/Screenshot%202026-01-05%20at%2021.08.07.png)
 
 ---
 
